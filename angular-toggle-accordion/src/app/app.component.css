@@ -1,0 +1,13 @@
+p {
+  font-family: Lato;
+}
+.show h1:before {
+  content: '--';
+}
+.hidden p,
+.hidden button {
+  visibility: hidden;
+}
+.hidden h1:before {
+  content: '+ ';
+}
